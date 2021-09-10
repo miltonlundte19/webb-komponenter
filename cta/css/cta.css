@@ -1,0 +1,47 @@
+.cta {
+  background-image: url("../images/TE19.jpg");
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  isolation: isolate;
+  color: #dcdcdc;
+}
+
+.cta > h1 {
+  font-size: 5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  padding: 2rem 2rem 1rem 2rem;
+}
+
+.cta-filter {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(219, 219, 219, 0.4);
+  z-index: -1;
+}
+
+.cta-right {
+  text-align: right;
+  color: #dcdcdc;
+  padding: 0 2rem;
+}
+
+.cta-right > p {
+  font-size: 2rem;
+}
+
+.cta-right > button {
+  margin: 1rem 0 2rem 0;
+  font-size: 2rem;
+  padding: .8rem;
+  border: none;
+  text-transform: uppercase;
+}
+
+.cta-right > button:hover {
+  color: #dcdcdc;
+  background-color: #000;
+}
+/*# sourceMappingURL=cta.css.map */
