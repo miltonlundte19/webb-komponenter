@@ -5,14 +5,12 @@
     position: relative;
     isolation: isolate;
     color: #dcdcdc;
-
     & > h1 {
         font-size: 5rem;
         font-weight: 900;
         text-transform: uppercase;
         padding: 2rem 2rem 1rem 2rem;
     }
-
     &-filter {
         position: absolute;
         width: 100%;
@@ -20,30 +18,21 @@
         background-color: rgba(219, 219, 219, .4);
         z-index: -1;
     }
-    
     &-right {
         text-align: right;
         color: #dcdcdc;
         padding: 0 2rem;
-
-        & > p {
-            font-size: 2rem;
-        }
-
+        & > p {font-size: 2rem;}
         & > button {
             margin: 1rem 0 2rem 0;
             font-size: 2rem;
             padding: .8rem;
             border: none;
             text-transform: uppercase;
-
             &:hover {
                 color: #dcdcdc;
                 background-color: #000;
             }
-
         }
     }
-
-    
 }

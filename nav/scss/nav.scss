@@ -2,60 +2,39 @@
     margin: 0;
     padding: 0;
 }
-
 body {
     font-size: 16px;
     line-height: 1.5;
 }
-
-h1 {
-    font-size: 3rem;
-}
-p {
-    font-size: 1rem;
-}
-
+h1 {font-size: 3rem;}
+p {font-size: 1rem;}
 .container {
     max-width: 48rem;
     margin-left: auto;
     margin-right: auto;
     padding-left: 1rem;
     padding-right: 1rem;
-
 }
-
 .navbar {
     min-height: 3rem;
     background-color: gainsboro;
     font-size: 1.6rem;
-
-
     &-inner {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-
     }
 }
 @media screen and (max-width: 24rem){
     .navbar-inner, .nav {
         flex-direction: column;
     }
-    
 }
-
 .nav {
     display: flex;
     list-style: none;
-
-    &-item {
-        padding-left: 1rem;
-    }
-    &-link {
-        text-decoration: none;
-
-       
-    }
+    &-item {padding-left: 1rem;}
+    &-link {text-decoration: none;}
 }
 
