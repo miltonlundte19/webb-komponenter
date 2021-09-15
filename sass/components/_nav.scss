@@ -1,0 +1,25 @@
+
+
+.navbar {
+    min-height: 3rem;
+    background-color: gainsboro;
+    font-size: 1.6rem;
+    &-inner {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 24rem){
+    .navbar-inner, .nav {
+        flex-direction: column;
+    }
+}
+.nav {
+    display: flex;
+    list-style: none;
+    &-item {padding-left: 1rem;}
+    &-link {text-decoration: none;}
+}
+

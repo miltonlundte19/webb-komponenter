@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 48rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.colums {
+  padding-top: 2rem;
+  columns: 2 25ch;
+  gap: 2rem;
+}
+.colums-card {
+  border: solid 1px;
+  break-inside: avoid;
+  margin-bottom: 0.6rem;
+}
+.colums-card > h2 {
+  font-size: 2.4rem;
+}
+.colums-right {
+  text-align: right;
+}
+.colums-right button {
+  margin: 0 0.2rem 0.2rem 0;
+}
+
+.cta {
+  background-image: url("images/TE19.jpg");
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  isolation: isolate;
+  color: #dcdcdc;
+}
+.cta > h1 {
+  font-size: 5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  padding: 2rem 2rem 1rem 2rem;
+}
+.cta-filter {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(219, 219, 219, 0.4);
+  z-index: -1;
+}
+.cta-right {
+  text-align: right;
+  color: #dcdcdc;
+  padding: 0 2rem;
+}
+.cta-right > p {
+  font-size: 2rem;
+}
+.cta-right > button {
+  margin: 1rem 0 2rem 0;
+  font-size: 2rem;
+  padding: 0.8rem;
+  border: none;
+  text-transform: uppercase;
+}
+.cta-right > button:hover {
+  color: #dcdcdc;
+  background-color: #000;
+}
+
+.footer {
+  margin-top: auto;
+  background-color: #f1f1f1;
+  padding: 2rem 2rem 1rem 2rem;
+}
+.footer-container {
+  columns: 3 25ch;
+  gap: 2rem;
+}
+.footer-item {
+  break-inside: avoid;
+  margin-bottom: 1.5rem;
+}
+
+.navbar {
+  min-height: 3rem;
+  background-color: gainsboro;
+  font-size: 1.6rem;
+}
+.navbar-inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 24rem) {
+  .navbar-inner, .nav {
+    flex-direction: column;
+  }
+}
+.nav {
+  display: flex;
+  list-style: none;
+}
+.nav-item {
+  padding-left: 1rem;
+}
+.nav-link {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */

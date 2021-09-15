@@ -1,0 +1,8 @@
+@use 'utilitys/eliments';
+@use 'utilitys/container';
+@use 'components/card';
+@use 'components/cta';
+@use 'components/footer';
+@use 'components/nav';
+
+// use är betre än import eftersom att import komer att sluta stödjas : https://sass-lang.com/documentation/at-rules/import
